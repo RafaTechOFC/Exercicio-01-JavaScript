@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus scripts JavaScript</title>
+</head>
+
+<body>
+    <script>
+        var nome = "Rafael"
+        document.write("Eu me chamo " + nome);
+        alert("Boa Tarde " + nome);
+
+        var A = 100
+        var B = 98
+        //exercício 01
+        document.write("<br/><br/>Conteúdo de A: " + A);
+        document.write("<br/>Conteúdo de B: " + B);
+        document.write("<br/>Soma: " + (A + B));
+        document.write("<br/>Subtração: " + (A - B));
+        document.write("<br/>Multiplicação: " + (A * B));
+        document.write("<br/>Divisão: " + (A / B));
+
+        //exercício 02
+        document.write("<br/><br/>JavaScript faz interação<br/>")
+        document.write("teste... ");
+
+        //exercício 03
+        nome = prompt("Qual seu nome?");
+        alert("Oi "+nome);
+
+        //exercício 04
+        resultado = confirm("Tudo Bem?")
+        document.write(resultado)
+
+        //exercício 05
+        alert("Bem Vindo ao JavaScript!");
+        nome = prompt("Digite seu nome:");
+        alert(nome + " viu como é legal JavaScript");
+        document.write("<br/><br/>Vamos fazer interação com o cliente");
+
+        //exercício 06
+        resposta = confirm("Tudo Bem?");
+        if (resposta == true) {
+            document.write("<br/>Estou Bem!");
+        } else {
+            document.write("<br/>Não Estou Bem!");
+        }
+    </script>
+    <a href="aula02_js_ex01.html">Próxima Página</a>
+</body>
+
+</html>
